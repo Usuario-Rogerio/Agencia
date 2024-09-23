@@ -1,0 +1,119 @@
+/* Criar as Variaveis */
+:root{
+    --cor-body: coral;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {   /* Trabalhar no corpo das paginas */
+    box-sizing: border-box;
+    background-color: var(--cor-body);
+}
+
+.cabeca {   /* Trabalhar no cabeçalho das paginas */
+    padding: 2%;
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
+    background-color: aqua;
+    width: auto;
+}
+
+.menus { /* Trabalhar no menu da pagina.*/
+    padding: 3%;
+}
+nav {   /* trabalhar com os links */
+    padding: 5px;
+}
+nav a {
+    display: block;
+    margin: 10px 0; /* Espaçamento entre os links */
+    padding: 10px; /* Espaçamento interno dos links */
+    width: 150%;
+    text-decoration: none; /* Remover sublinhado */
+    color: #333; /* Cor do texto */
+    background-color: #e4e4e4; /* Cor de fundo dos links */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-align: center; /* Alinhamento do texto */
+    color: chocolate;
+}
+nav a:hover {
+    background-color: rgb(184, 184, 192);
+}
+.entrada_texto {
+    padding: 3%;
+    display: flex;
+    color: blue;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Times New Roman';
+    font-size: x-large;
+}
+
+.entrada {    
+    display: flex;
+    width: auto;
+}
+
+.entrada_secao {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    flex-direction: column;
+    gap: 40px;
+}
+.entrada_secao img {
+    display: center;
+    width: 52%; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 5px solid #000; /* Adiciona uma borda preta */
+    box-shadow: 10px 10px 20px rgba(247, 244, 244, 0.767); /* Sombra com deslocamento e suavidade */
+    display: block; /* Garante que a imagem seja um bloco e não inline */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+.entrada_secao p {
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+.sobre {
+    padding: 5% 10%;
+    font-size: xx-large;
+    display: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    gap: 40px;
+}
+
+.entrada_promocao {
+    padding: 3% 15%;
+    display: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.fimdepagina {
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    padding: 15px; /* Espaçamento interno */
+    width: auto;
+}
+
+@media (max-width: 100%) {
+    .entrada {
+        flex-direction: column-reverse;
+    }
+    .entrada_promocao {
+        padding: 5%;
+        gap: 20px;
+    }
+}
