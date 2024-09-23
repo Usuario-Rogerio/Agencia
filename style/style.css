@@ -110,7 +110,9 @@ nav a:hover {
 
 @media (max-width: 100%) {
     .entrada {
+        padding: 5% 15%;
         flex-direction: column-reverse;
+        gap: 10px;
     }
     .entrada_promocao {
         padding: 5%;
