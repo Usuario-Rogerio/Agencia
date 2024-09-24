@@ -125,10 +125,12 @@ nav a:hover {
     }
     .menus {
         display: flex;
+        flex-direction: column-reverse;
         padding: 15% 15%;
         gap: 140px;
     }
     .nav {
         display: flex;
+        flex-direction: column-reverse;
     }
 }
