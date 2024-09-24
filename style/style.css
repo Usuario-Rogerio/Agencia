@@ -108,9 +108,8 @@ nav a:hover {
     width: auto;
 }
 
-@media (max-width: 100%) {
+@media (max-width: 1200%) {
     .entrada {
-        display: block;
         padding: 5% 15%;
         flex-direction: column-reverse;
         gap: 10px;
