@@ -131,7 +131,7 @@ nav a:hover {
         gap: 40px;
     }
     .nav {
-        align-items: center;
+        align-items: left;
         display: column;
         flex-direction: column-reverse;
     }
