@@ -108,7 +108,7 @@ nav a:hover {
     width: auto;
 }
 
-@media (max-width: 1024%) {
+@media (max-width: 1024px) {
     .entrada {
         padding: 5% 15%;
         flex-direction: column;
