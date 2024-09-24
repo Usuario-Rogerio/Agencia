@@ -124,9 +124,21 @@ nav a:hover {
         padding: 5%;
         gap: 20px;
     }
+    .menus {
+        align-items: left;
+        display: column;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .nav {
+        display: flex;
+        display: column;
+        flex-direction: column-reverse;
+        align-items: left;
+    }
     .img {
         display: center;
-        width: 100px; /* Define a largura da imagem */
+        width: 1020px; /* Define a largura da imagem */
         height: auto; /* Mantém a proporção da imagem */
         border: 5px solid #000; /* Adiciona uma borda preta */
         box-shadow: 10px 10px 20px rgba(247, 244, 244, 0.767); /* Sombra com deslocamento e suavidade */
