@@ -130,6 +130,7 @@ nav a:hover {
         gap: 40px;
     }
     .nav {
+        display: flex;
         display: column;
         flex-direction: column-reverse;
     }
