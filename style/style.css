@@ -79,7 +79,6 @@ nav a:hover {
     font-family: cursive;
     font-size: xx-large;
 }
-
 .sobre {
     padding: 5% 10%;
     font-size: xx-large;
@@ -113,7 +112,7 @@ nav a:hover {
         width: auto;
         display: center;
         align-items: center;
-        padding: 3%;
+        
         flex-direction: column-reverse;
         gap: 30px;
     }
