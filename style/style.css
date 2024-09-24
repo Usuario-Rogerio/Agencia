@@ -133,6 +133,7 @@ nav a:hover {
         display: flex;
         display: column;
         flex-direction: column-reverse;
+        align-items: left;
     }
     .img {
         display: center;
