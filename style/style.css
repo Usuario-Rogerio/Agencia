@@ -110,6 +110,7 @@ nav a:hover {
 
 @media (max-width: 100%) {
     .entrada {
+        display: block;
         padding: 5% 15%;
         flex-direction: column-reverse;
         gap: 10px;
@@ -129,11 +130,11 @@ nav a:hover {
         gap: 20px;
     }
     .menus {
-        display: auto;
+        display: flex;
         padding: 15% 15%;
         gap: 140px;
     }
     .nav {
-        display: auto;
+        display: flex;
     }
 }
