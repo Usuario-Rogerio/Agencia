@@ -112,7 +112,7 @@ nav a:hover {
     .entrada {
         padding: 5% 5%;
         flex-direction: column-reverse;
-        gap: 40px;
+        gap: 30px;
     }
     .entrada_secao {
         padding: 5% 15%;
