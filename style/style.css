@@ -135,7 +135,7 @@ nav a:hover {
     }
     .img {
         display: center;
-        width: 100%; /* Define a largura da imagem */
+        width: 50px; /* Define a largura da imagem */
         height: auto; /* Mantém a proporção da imagem */
         border: 5px solid #000; /* Adiciona uma borda preta */
         box-shadow: 10px 10px 20px rgba(247, 244, 244, 0.767); /* Sombra com deslocamento e suavidade */
