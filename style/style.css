@@ -134,7 +134,12 @@ nav a:hover {
         flex-direction: column-reverse;
     }
     .img {
-        width: 100%;
-        height: auto;
+        display: center;
+        width: 52%; /* Define a largura da imagem */
+        height: auto; /* Mantém a proporção da imagem */
+        border: 5px solid #000; /* Adiciona uma borda preta */
+        box-shadow: 10px 10px 20px rgba(247, 244, 244, 0.767); /* Sombra com deslocamento e suavidade */
+        display: block; /* Garante que a imagem seja um bloco e não inline */
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
     }
 }
