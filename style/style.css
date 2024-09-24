@@ -110,9 +110,8 @@ nav a:hover {
 @media (max-width: 1024px) {
     .entrada {
         width: auto;
-        display: center;
+        display: flex;
         align-items: center;
-        
         flex-direction: column-reverse;
         gap: 30px;
     }
