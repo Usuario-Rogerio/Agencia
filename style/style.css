@@ -110,7 +110,7 @@ nav a:hover {
 
 @media (max-width: 1024px) {
     .entrada {
-        width: 100%;
+        width: auto;
         display: center;
         align-items: center;
         padding: 3%;
