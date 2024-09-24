@@ -110,8 +110,8 @@ nav a:hover {
 
 @media (max-width: 1024px) {
     .entrada {
-        padding: 5% 15%;
-        flex-direction: column;
+        padding: 5% 5%;
+        flex-direction: column-reverse;
         gap: 40px;
     }
     .entrada_secao {
