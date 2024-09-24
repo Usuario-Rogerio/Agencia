@@ -129,11 +129,11 @@ nav a:hover {
         gap: 20px;
     }
     .menus {
-        display: flex;
+        display: auto;
         padding: 15% 15%;
         gap: 140px;
     }
     .nav {
-        display: flex;
+        display: auto;
     }
 }
