@@ -114,6 +114,16 @@ nav a:hover {
         flex-direction: column-reverse;
         gap: 10px;
     }
+    .entrada_secao {
+        padding: 5% 15%;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .entrada_texto {
+        padding: 5% 15%;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
     .entrada_promocao {
         padding: 5%;
         gap: 20px;
