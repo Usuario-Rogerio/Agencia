@@ -129,8 +129,11 @@ nav a:hover {
         gap: 20px;
     }
     .menus {
-        display: block;
+        display: flex;
         padding: 15% 15%;
         gap: 40px;
+    }
+    .nav {
+        display: flex;
     }
 }
